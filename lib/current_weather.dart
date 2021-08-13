@@ -11,7 +11,7 @@ class CurrentWeather extends StatelessWidget {
     var endpointUrl = 'http://api.openweathermap.org/data/2.5/weather';
     Map<String, String> queryParams = {
       'q': city,
-      'appid': '66d34f5aafa811b05051b1ec23d0b151'
+      'appid': ''
     };
     String queryString = Uri(queryParameters: queryParams).query;
 
